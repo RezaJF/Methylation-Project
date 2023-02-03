@@ -1,0 +1,11 @@
+conda activate biobase
+
+
+export FONTCONFIG_PATH=etc/fonts
+export PATH=$PATH
+
+refgenome=/gs/gsfs0/users/rjabalamel/methylation_project/reference/Homo_sapiens/Bismark
+
+no_lanes=1
+FASTQ_PATH=/gs/gsfs0/users/bsrodentdata/2022-IR_TCells/batch2
+PATH_DIR=/gs/gsfs0/users/rjabalamel/methylation_project/IR_TCells
